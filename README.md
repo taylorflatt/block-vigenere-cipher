@@ -18,11 +18,11 @@ Text: ThisIs_A_Test
 Key: MyKey
 
 ### Output
-Plaintext:  ThisIs_A_Test
+Plaintext: ThisIs_A_Test
 
-Key:  MyKeyBBSWCTAS
+Key: MyKeyBBSWCTAS
 
-Ciphertext:  MyKeyBBSWCTASVVXSH
+Ciphertext: BBSWCTASVVXSH
 
 ### Explanation
 The first k-characters are run through the encryption using the given text (0, k) and key (0,k) where k is the length of the key. For each subsequent iteration, the output of the previous cipher is used as input for the key. You will notice how _BBSWC_ is used instead of _MyKey_ for the second iteration.
