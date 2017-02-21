@@ -21,8 +21,8 @@ def main():
     """Prompts the user for some text and a key. Then passes their text
     through the encryption method iteratively until it is completely encrypted."""
 
-    plaintext = input('Enter something to encrypt: ')
-    key = input('Enter key: ')
+    plaintext = input('Enter some text to encrypt: ')
+    key = input('Enter a key (some text): ')
 
     # Break the cipher into blocks relative to the key length.
     blocks = []
@@ -47,7 +47,7 @@ def main():
 
     print("Plaintext: ", plaintext)
     print("Key: ", blocks_joined[:-len(key)])
-    print("Ciphertext: ", blocks_joined)
+    print("Ciphertext: ", blocks_joined[len(key):])
 
 if __name__ == "__main__":
     main()
