@@ -3,7 +3,7 @@ Encrypts text using an iterative block version of the Vigenere Cipher. That is, 
 
 I assume a 30-character wheel that includes the alphabet and the following symbols: `, . - _`
 
-## Use
+## Usage
 Make sure python 3.6 is installed. Then run,
 
 `python main.py`
