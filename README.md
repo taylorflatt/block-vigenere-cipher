@@ -12,7 +12,7 @@ You will be asked to input some text you would like to encrypt. Finally, you wil
 
 ## Example
 
-###Input
+### Input
 Text: ThisIs_A_Test
 
 Key: MyKey
